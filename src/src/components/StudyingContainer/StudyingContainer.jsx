@@ -9,7 +9,7 @@ function StudyingContent() {
   return (
     <S.Container>
       <S.Content>
-        <S.Header> Что даст тебе обучение?</S.Header>
+        <S.Header id="study"> Что даст тебе обучение?</S.Header>
 
         <S.Circles>
           <S.PurpleCircle />
@@ -19,7 +19,6 @@ function StudyingContent() {
           <S.BackgroundPurpleCircleBottom />
           <S.PurpleCircleGradient />
         </S.Circles>
-
 
         <S.ContentBlocks>
           <S.ContentBlock>

@@ -31,6 +31,7 @@ export const AuthForm = styled.div`
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
+  overflow: hidden;
 `;
 
 export const Header = styled.h1`
@@ -44,6 +45,7 @@ export const Header = styled.h1`
   letter-spacing: -0.03em;
   color: #ffffff;
   margin-top: 56px;
+  z-index: 1;
 `;
 
 export const Heading = styled.p`
@@ -56,6 +58,7 @@ export const Heading = styled.p`
   line-height: 120%;
   color: #ffffff;
   margin-top: 25px;
+  z-index: 1;
 `;
 
 export const FormInput = styled.input`
@@ -78,6 +81,7 @@ export const FormInput = styled.input`
   flex-grow: 0;
   margin-top: 35px;
   margin-bottom: 18px;
+  z-index: 1;
 `;
 
 export const FormButton = styled.button`
@@ -93,6 +97,7 @@ export const FormButton = styled.button`
   top: 70px;
   background: linear-gradient(92.84deg, #1dd844 1.44%, #cbf62e 126.29%);
   border-radius: 10px;
+  display: inline-block;
   &:hover {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
   }
@@ -108,10 +113,27 @@ export const FormButton = styled.button`
   text-align: center;
   color: #242424;
   cursor: pointer;
+  z-index: 1;
 `;
 
 export const CloseBtn = styled.img`
   position: absolute;
   left: 600px;
   top: 45px;
+`;
+
+export const BackgroundGreenLight = styled.div`
+  position: absolute;
+  width: 424.93px;
+  height: 386.23px;
+  left: 417.09px;
+  top: -95px;
+  z-index: 0;
+  background: linear-gradient(
+    170.98deg,
+    rgba(195, 243, 58, 0.25) 25.59%,
+    rgba(41, 209, 89, 0.25) 100.44%
+  );
+  filter: blur(86px);
+  transform: rotate(11.97deg);
 `;
