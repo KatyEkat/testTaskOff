@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const HeaderContainer = styled.div`
   display: flex;
   margin-top: 43px;
+  align-items: center;
 
   // @media screen and (max-width: 800px) {
   //   height: 117.8px;

@@ -5,20 +5,27 @@ import Join from "../Button/ButtonJoin";
 
 function Content() {
   return (
-    <S.ContainerContent>
-      <S.ContainerText>
-        <S.Header>
-          Не упусти возможность войти в <strong>прибыльную нишу</strong>
-        </S.Header>
-        <S.Heading>
-          Получи все нужные навыки для заработка на NFT всего за 28 дней!
-        </S.Heading>
+    <>
+      <S.ContainerCircles>
+        <S.PurpleCircleShadow />
+        <S.GreenCircle />
+      </S.ContainerCircles>
 
-        <Join />
-      </S.ContainerText>
+      <S.ContainerContent>
+        <S.ContainerText>
+          <S.Header>
+            Не упусти возможность войти в <strong>прибыльную нишу</strong>
+          </S.Header>
+          <S.Heading>
+            Получи все нужные навыки для заработка на NFT всего за 28 дней!
+          </S.Heading>
 
-      <S.ManImage src={ManImg} />
-    </S.ContainerContent>
+          <Join />
+        </S.ContainerText>
+
+        <S.ManImage src={ManImg} />
+      </S.ContainerContent>
+    </>
   );
 }
 
