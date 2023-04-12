@@ -4,6 +4,7 @@ import WinkEmoj from "../../../img/winkEmoj.svg";
 import MoneyEmoj from "../../../img/moneyEmoj.svg";
 import BossEmoj from "../../../img/bossEmoj.svg";
 import * as S from "./StudyingContainer";
+import Cards from "../Cards/Cards.jsx";
 
 function StudyingContent() {
   return (
@@ -21,29 +22,33 @@ function StudyingContent() {
         </S.Circles>
 
         <S.ContentBlocks>
-          <S.ContentBlock>
+          <S.ContentCard>
             <S.Emoji src={StarEyes} />
             <S.Heading>
               Откроешь свой первый криптокошелек и научишься с ним работать
             </S.Heading>
-          </S.ContentBlock>
+            <Cards />
+          </S.ContentCard>
 
-          <S.ContentBlock>
+          <S.ContentCard>
             <S.Emoji src={WinkEmoj} />
             <S.Heading>Поймёшь, как выбирать правильные дропы</S.Heading>
-          </S.ContentBlock>
+            <Cards />
+          </S.ContentCard>
 
-          <S.ContentBlock>
+          <S.ContentCard>
             <S.Emoji src={MoneyEmoj} />
             <S.Heading>
               Построишь план по быстрому приумножению заработанных средств
             </S.Heading>
-          </S.ContentBlock>
+            <Cards />
+          </S.ContentCard>
 
-          <S.ContentBlock>
+          <S.ContentCard>
             <S.Emoji src={BossEmoj} />
             <S.Heading>Узнаешь кто такие холдеры и флипперы</S.Heading>
-          </S.ContentBlock>
+            <Cards />
+          </S.ContentCard>
         </S.ContentBlocks>
       </S.Content>
     </S.Container>

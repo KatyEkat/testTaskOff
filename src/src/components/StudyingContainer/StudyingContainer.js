@@ -20,8 +20,6 @@ export const Content = styled.div`
 export const Header = styled.h1`
   width: 596px;
   height: 58px;
-  left: 662px;
-  top: 215px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -39,20 +37,25 @@ export const ContentBlocks = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   gap: 50px;
-  z-index: 1;
+`;
+
+export const ContentCard = styled.div`
+  display: grid;
+  justify-items: center;
+  margin: 0 0 50px 25px;
+
 `;
 
 export const Emoji = styled.img`
   width: 117px;
   height: 117px;
   margin-top: 45px;
+  z-index: 2;
 `;
 
 export const Heading = styled.h2`
   width: 262px;
   height: 75px;
-  left: 654px;
-  top: 523px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -62,22 +65,7 @@ export const Heading = styled.h2`
   letter-spacing: -0.7px;
   color: #ffffff;
   margin-top: 23px;
-`;
-
-export const ContentBlock = styled.div`
-  width: 300px;
-  height: 310px;
-  left: 635px;
-  top: 338px;
-
-  background: rgba(51, 62, 81, 0.7);
-  backdrop-filter: blur(30.5px);
-  /* Note: backdrop-filter has minimal browser support */
-
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  z-index: 2;
 `;
 
 export const Circles = styled.div``;
