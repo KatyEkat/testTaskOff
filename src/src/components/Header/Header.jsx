@@ -19,7 +19,7 @@ function Header() {
         <S.HeadingHome>Главная</S.HeadingHome>
       </S.LinkHeader>
 
-      <S.LinkHeader href="#">
+      <S.LinkHeader  href="#study"> 
         <S.Heading>Что даст обучение</S.Heading>
       </S.LinkHeader>
 
