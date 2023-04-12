@@ -98,11 +98,13 @@ export const FormButton = styled.button`
   background: linear-gradient(92.84deg, #1dd844 1.44%, #cbf62e 126.29%);
   border-radius: 10px;
   display: inline-block;
-  &:hover {
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+  :hover {
+    background: linear-gradient(92.84deg, #1dd844 1.44%, #cbf62e 126.29%);
+    box-shadow: 0px 4px 15px rgba(203, 246, 46.50);
   }
-  &:active {
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+  :active {
+    background: linear-gradient(92.84deg, #1dd844 1.44%, #cbf62e 126.29%);
+    box-shadow: 0px 4px 9px rgba(203, 246, 46.25);
   }
 
   font-family: "Inter";
