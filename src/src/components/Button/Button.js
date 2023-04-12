@@ -34,18 +34,14 @@ export const Join = styled.button`
   line-height: 130%;
   text-align: center;
   color: #242424;
-
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 20px 30px;
   gap: 10px;
-
   width: 336px;
   height: 66px;
-
-  /* Gr */
 
   background: linear-gradient(92.84deg, #1dd844 1.44%, #cbf62e 126.29%);
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
@@ -54,4 +50,12 @@ export const Join = styled.button`
   margin-top: 67px;
   margin-bottom: 270px;
   cursor: pointer;
+  :hover {
+    background: linear-gradient(92.84deg, #1dd844 1.44%, #cbf62e 126.29%);
+    box-shadow: 0px 4px 15px rgba(203, 246, 46.50);
+  }
+  :active {
+    background: linear-gradient(92.84deg, #1dd844 1.44%, #cbf62e 126.29%);
+    box-shadow: 0px 4px 9px rgba(203, 246, 46.25);
+  }
 `;

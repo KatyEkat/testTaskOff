@@ -17,7 +17,7 @@ function PopupJoin({ active, setActive, closeForm }) {
     <S.PopupArea onClick={() => setActive(false)}>
       <S.AuthForm onClick={(e) => e.stopPropagation()}>
         <S.BackgroundGreenLight />
-        
+
         <S.Header> Начни прямо сейчас!</S.Header>
         <S.Heading>
           Получи все нужные навыки для заработка на NFT всего за 28 дней!
