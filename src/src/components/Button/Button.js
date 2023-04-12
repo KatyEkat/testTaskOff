@@ -53,4 +53,5 @@ export const Join = styled.button`
 
   margin-top: 67px;
   margin-bottom: 270px;
+  cursor: pointer;
 `;

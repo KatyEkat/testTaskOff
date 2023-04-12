@@ -7,6 +7,7 @@ export const ContainerContent = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-top: 115px;
+  z-index: 1;
 `;
 
 export const ContainerText = styled.div`
@@ -44,4 +45,42 @@ export const ManImage = styled.img`
   position: absolute;
   margin-left: 574px;
   margin-top: -248px;
+`;
+
+export const ContainerCircles = styled.div``;
+
+export const PurpleCircleShadow = styled.img`
+  position: absolute;
+  width: 414.9px;
+  height: 414.9px;
+  left: 15px;
+  top: -188.98px;
+  background: linear-gradient(
+    170.98deg,
+    rgba(95, 56, 255, 0.35) 25.59%,
+    rgba(255, 14, 222, 0.35) 100.44%
+  );
+  filter: blur(86px);
+  transform: rotate(11.97deg);
+`;
+
+export const GreenCircle = styled.img`
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 87.52px;
+  height: 87.52px;
+  margin-left: 481px;
+  margin-top: 80px;
+
+  background: radial-gradient(
+      95.38% 95.38% at 50.77% 4.62%,
+      #ddf92c 0%,
+      #8fec36 44.51%,
+      #00d448 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  filter: blur(2px);
+  transform: rotate(-25.73deg);
+  border-radius: 50%;
 `;

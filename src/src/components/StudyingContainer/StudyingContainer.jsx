@@ -1,5 +1,4 @@
 import React from "react";
-// import BlueCircle from "../../../img/blueCircle.svg"
 import StarEyes from "../../../img/starEyes.svg";
 import WinkEmoj from "../../../img/winkEmoj.svg";
 import MoneyEmoj from "../../../img/moneyEmoj.svg";
@@ -10,8 +9,17 @@ function StudyingContent() {
   return (
     <S.Container>
       <S.Content>
-        {/* <S.BlueCircle src={BlueCircle} /> */}
         <S.Header> Что даст тебе обучение?</S.Header>
+
+        <S.Circles>
+          <S.PurpleCircle />
+          <S.BlueCircle />
+
+          <S.BackgroundPurpleCircle />
+          <S.BackgroundPurpleCircleBottom />
+          <S.PurpleCircleGradient />
+        </S.Circles>
+
 
         <S.ContentBlocks>
           <S.ContentBlock>
