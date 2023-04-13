@@ -1,5 +1,5 @@
 import React from "react";
-import * as S from "./Cards"
+import * as S from "./Cards";
 
 function Cards() {
   return (

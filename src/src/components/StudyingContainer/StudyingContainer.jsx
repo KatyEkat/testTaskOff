@@ -6,6 +6,7 @@ import BossEmoj from "../../../img/bossEmoj.svg";
 import * as S from "./StudyingContainer";
 import Cards from "../Cards/Cards.jsx";
 
+
 function StudyingContent() {
   return (
     <S.Container>

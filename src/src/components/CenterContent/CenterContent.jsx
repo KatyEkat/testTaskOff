@@ -9,10 +9,10 @@ function Content() {
 
   return (
     <>
-      <S.ContainerCircles>
+      {/* <S.ContainerCircles>
         <S.PurpleCircleShadow />
         <S.GreenCircle />
-      </S.ContainerCircles>
+      </S.ContainerCircles> */}
 
       <S.ContainerContent>
         <S.ContainerText>
@@ -23,20 +23,15 @@ function Content() {
             Получи все нужные навыки для заработка на NFT всего за 28 дней!
           </S.Heading>
 
-  
           <Join onClick={() => setModalActive(true)} />
         </S.ContainerText>
 
         <S.ManImage src={ManImg} />
 
-        <ModalJoin 
-          active={modalActive} 
-          setActive={setModalActive} 
-        />
+        <ModalJoin active={modalActive} setActive={setModalActive} />
       </S.ContainerContent>
     </>
   );
-
 }
 
 export default Content;

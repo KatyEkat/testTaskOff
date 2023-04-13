@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../../components/Header/Header.jsx";
+// import Burger from "../../components/BurgerMenu/BurgerMenu.jsx"
 import CenterContent from "../../components/CenterContent/CenterContent.jsx";
-import StudyingContainer from "../../components/StudyingContainer/StudyingContainer.jsx"
+import StudyingContainer from "../../components/StudyingContainer/StudyingContainer.jsx";
 import * as S from "./Home.js";
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
     <S.Home>
       <S.Main>
         <Header />
+        {/* <Burger /> */}
         <CenterContent />
         <StudyingContainer />
       </S.Main>

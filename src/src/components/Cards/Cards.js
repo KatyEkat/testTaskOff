@@ -17,6 +17,10 @@ export const ContentBlockTop = styled.div`
   flex-direction: column;
   align-items: center;
   z-index: 1;
+  @media screen and (max-width: 800px) {
+    width: 260px;
+    height: 273px;
+  }
 `;
 
 export const ContentBlockUnder = styled.div`
@@ -28,4 +32,8 @@ export const ContentBlockUnder = styled.div`
   backdrop-filter: blur(30.5px);
 
   border-radius: 20px;
+  @media screen and (max-width: 800px) {
+    width: 226px;
+    height: 235px;
+  }
 `;
