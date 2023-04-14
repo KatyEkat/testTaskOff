@@ -10,6 +10,7 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
+  overflow: hidden;
   position: absolute;
   width: 1284px;
   height: 1093px;
@@ -116,18 +117,9 @@ export const Heading = styled.h2`
 `;
 
 export const Circles = styled.div`
-  @media screen and (max-width: 800px) {
-    display: none;
-  }
 `;
 
 export const BlueCircle = styled.div`
-  // width: 84px;
-  // height: 84px;
-  // margin-top: 104px;
-  // margin-left: 164px;
-  // margin-right: 83px;
-
   box-sizing: border-box;
 
   position: absolute;
@@ -150,9 +142,10 @@ export const BlueCircle = styled.div`
     width: 21.91px;
     height: 21.91px;
     left: 269.96px;
-    top: 230px;
-  }
-`;
+    // top: 230px;
+    top: 97px;
+    left:63px;
+  }`;
 
 export const PurpleCircle = styled.div`
   box-sizing: border-box;
@@ -179,7 +172,7 @@ export const PurpleCircle = styled.div`
     position: absolute;
     width: 87.59px;
     height: 87.59px;
-    left: 648px;
+    left: 332px;
     top: -25.97px;
   }
 `;
@@ -203,8 +196,8 @@ export const BackgroundPurpleCircle = styled.div`
     position: absolute;
     width: 137.41px;
     height: 137.41px;
-    left: 533px;
-    top: 89px;
+    left: 332px;
+    top: -25.97px;
   }
 `;
 
@@ -251,7 +244,7 @@ export const PurpleCircleGradient = styled.div`
   @media screen and (max-width: 800px) {
     width: 62.86px;
     height: 62.86px;
-    left: 482px;
-    top: 1730.29px;
+    left: 332px;
+    top: 1572px;
   }
 `;

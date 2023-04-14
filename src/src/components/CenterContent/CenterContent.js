@@ -13,13 +13,14 @@ export const ContainerContent = styled.div`
     // height: 735px;
     display: flex;
     flex-direction: column;
-      margin-top: 48px;
+    margin-top: 48px;
   }
 `;
 
 export const ContainerText = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 `;
 
 export const Header = styled.h1`

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import NFT from "../../../img/NFT.svg";
 import CirclePurple from "../../../img/purplecircle.svg";
 import ButtonLogin from "../Button/ButtonLogin";
-// import Burger from "./Burger";
 import * as S from "./Header";
 
 function Header() {
@@ -12,16 +11,16 @@ function Header() {
     return (
       <>
         <S.Ul open={open}>
-          {/* <S.BurgerLogoStyle>
+          <S.BurgerLogoStyle>
             <S.CirclePurple src={CirclePurple} />
             <S.Logo src={NFT} alt="ntf" />
-          </S.BurgerLogoStyle> */}
+          </S.BurgerLogoStyle>
 
-          <S.LinkHeader href="#">
+          <S.LinkHeader href="#" onClick={() => setOpen(false)}>
             <S.HeadingHome>Главная</S.HeadingHome>
           </S.LinkHeader>
 
-          <S.LinkHeader href="#study">
+          <S.LinkHeader href="#study" onClick={() => setOpen(false)}>
             <S.Heading>Что даст обучение</S.Heading>
           </S.LinkHeader>
           <ButtonLogin />
@@ -39,7 +38,6 @@ function Header() {
           <S.Logo src={NFT} alt="ntf" />
         </S.LinkHeader>
       </S.HeaderLogoBlock>
-
 
       <S.HeaderContainer>
         <S.HeaderLinks>

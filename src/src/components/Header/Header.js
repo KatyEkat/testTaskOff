@@ -48,6 +48,7 @@ export const LinkHeader = styled.a``;
 export const BurgerLogoStyle = styled.div`
   position: fixed;
   top: 24px;
+  right: 195px;
   display: flex;
   align-items: center;
 `;
@@ -56,9 +57,6 @@ export const Logo = styled.img`
   width: 73px;
   height: 29px;
   left: 55px;
-  // top: 13px;
-  // margin-right: 416px;
-  // margin-left: 6px;
 
   @media screen and (max-width: 800px) {
     width: 48.49px;

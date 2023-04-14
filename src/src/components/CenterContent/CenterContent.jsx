@@ -9,11 +9,6 @@ function Content() {
 
   return (
     <>
-      {/* <S.ContainerCircles>
-        <S.PurpleCircleShadow />
-        <S.GreenCircle />
-      </S.ContainerCircles> */}
-
       <S.ContainerContent>
         <S.ContainerText>
           <S.Header>

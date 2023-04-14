@@ -87,7 +87,7 @@ export const FormInput = styled.input`
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 15px 268px 15px 20px;
+  padding: 5px 20px 5px 20px;
   gap: 10px;
 
   width: 471px;
