@@ -1,6 +1,6 @@
 import React from "react";
 import CloseBtn from "../../../img/CloseBtn.svg";
-import * as S from "./PopupJoin";
+import * as S from "./PopupJoin.js";
 
 function PopupJoin({ active, setActive, closeForm }) {
   const onUpdate = async () => {
