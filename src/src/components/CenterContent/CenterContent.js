@@ -8,11 +8,19 @@ export const ContainerContent = styled.div`
   align-items: center;
   margin-top: 115px;
   z-index: 1;
+
+  @media screen and (max-width: 800px) {
+    // height: 735px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+  }
 `;
 
 export const ContainerText = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 `;
 
 export const Header = styled.h1`
@@ -25,6 +33,14 @@ export const Header = styled.h1`
   line-height: 105%;
   letter-spacing: -0.03em;
   color: #ffffff;
+
+  @media screen and (max-width: 800px) {
+    width: 248px;
+    height: 78px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 348px;
+  }
 `;
 
 export const Heading = styled.h2`
@@ -37,6 +53,13 @@ export const Heading = styled.h2`
   line-height: 120%;
   color: #cecece;
   margin-top: 20px;
+
+  @media screen and (max-width: 800px) {
+    width: 239px;
+    height: 63px;
+    font-size: 18px;
+    text-align: center;
+  }
 `;
 
 export const ManImage = styled.img`
@@ -45,9 +68,19 @@ export const ManImage = styled.img`
   position: absolute;
   margin-left: 574px;
   margin-top: -248px;
+
+  @media screen and (max-width: 800px) {
+    width: 321px;
+    height: 321px;
+    margin: 0;
+    position: absolute;
+    margin-top: 100px;
+  }
 `;
 
-export const ContainerCircles = styled.div``;
+export const ContainerCircles = styled.div`
+  position: absolute;
+`;
 
 export const PurpleCircleShadow = styled.img`
   position: absolute;
@@ -83,4 +116,7 @@ export const GreenCircle = styled.img`
   filter: blur(2px);
   transform: rotate(-25.73deg);
   border-radius: 50%;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
 `;

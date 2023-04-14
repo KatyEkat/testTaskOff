@@ -2,9 +2,15 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background: #f5f5f5;
+
+  @media screen and (max-width: 800px) {
+    display: flex;
+    justify-content: center;
+  }
 `;
 
 export const Content = styled.div`
+  overflow: hidden;
   position: absolute;
   width: 1284px;
   height: 1093px;
@@ -15,6 +21,12 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (max-width: 800px) {
+    height: auto;
+    width: 100vw;
+    margin-top: 70px;
+  }
 `;
 
 export const Header = styled.h1`
@@ -29,6 +41,14 @@ export const Header = styled.h1`
   color: #ffffff;
   margin-top: 130px;
   margin-bottom: 65px;
+
+  @media screen and (max-width: 800px) {
+    width: 180px;
+    height: 60px;
+    font-size: 23px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
 `;
 
 export const ContentBlocks = styled.div`
@@ -37,6 +57,18 @@ export const ContentBlocks = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   gap: 50px;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 800px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 320px;
+    height: 1497px;
+    margin-bottom: 102px;
+    gap: 0;
+  }
 `;
 
 export const ContentCard = styled.div`
@@ -44,6 +76,8 @@ export const ContentCard = styled.div`
   justify-items: center;
   margin: 0 0 50px 25px;
 
+  @media screen and (max-width: 800px) {
+  }
 `;
 
 export const Emoji = styled.img`
@@ -51,6 +85,12 @@ export const Emoji = styled.img`
   height: 117px;
   margin-top: 45px;
   z-index: 2;
+
+  @media screen and (max-width: 800px) {
+    width: 83px;
+    height: 83px;
+    margin-top: 48px;
+  }
 `;
 
 export const Heading = styled.h2`
@@ -66,17 +106,20 @@ export const Heading = styled.h2`
   color: #ffffff;
   margin-top: 23px;
   z-index: 2;
+
+  @media screen and (max-width: 800px) {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 47px;
+    width: 214px;
+    height: 75px;
+  }
 `;
 
-export const Circles = styled.div``;
+export const Circles = styled.div`
+`;
 
 export const BlueCircle = styled.div`
-  // width: 84px;
-  // height: 84px;
-  // margin-top: 104px;
-  // margin-left: 164px;
-  // margin-right: 83px;
-
   box-sizing: border-box;
 
   position: absolute;
@@ -94,7 +137,15 @@ export const BlueCircle = styled.div`
     /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   transform: rotate(7.77deg);
   border-radius: 50%;
-`;
+
+  @media screen and (max-width: 800px) {
+    width: 21.91px;
+    height: 21.91px;
+    left: 269.96px;
+    // top: 230px;
+    top: 97px;
+    left:63px;
+  }`;
 
 export const PurpleCircle = styled.div`
   box-sizing: border-box;
@@ -116,6 +167,14 @@ export const PurpleCircle = styled.div`
     /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   transform: rotate(-25.73deg);
   border-radius: 50%;
+
+  @media screen and (max-width: 800px) {
+    position: absolute;
+    width: 87.59px;
+    height: 87.59px;
+    left: 332px;
+    top: -25.97px;
+  }
 `;
 
 export const BackgroundPurpleCircle = styled.div`
@@ -132,6 +191,14 @@ export const BackgroundPurpleCircle = styled.div`
   );
   filter: blur(86px);
   transform: rotate(11.97deg);
+
+  @media screen and (max-width: 800px) {
+    position: absolute;
+    width: 137.41px;
+    height: 137.41px;
+    left: 332px;
+    top: -25.97px;
+  }
 `;
 
 export const BackgroundPurpleCircleBottom = styled.div`
@@ -148,6 +215,10 @@ export const BackgroundPurpleCircleBottom = styled.div`
   );
   filter: blur(86px);
   transform: rotate(11.97deg);
+
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
 `;
 
 export const PurpleCircleGradient = styled.div`
@@ -159,8 +230,6 @@ export const PurpleCircleGradient = styled.div`
   left: 985px;
   top: 810px;
 
-  /* Radial */
-
   background: radial-gradient(
       95.38% 95.38% at 50.77% 4.62%,
       #dea8ff 0%,
@@ -171,4 +240,11 @@ export const PurpleCircleGradient = styled.div`
   filter: blur(12px);
   transform: rotate(-25.73deg);
   border-radius: 50%;
+
+  @media screen and (max-width: 800px) {
+    width: 62.86px;
+    height: 62.86px;
+    left: 332px;
+    top: 1572px;
+  }
 `;

@@ -25,6 +25,11 @@ export const Login = styled.button`
   :active {
     background: rgba(224, 255, 172, 0.05);
   }
+
+  @media screen and (max-width: 800px) {
+    margin-left: 20px;
+    margin-bottom: 60px;
+  }
 `;
 
 export const Join = styled.button`
@@ -44,7 +49,7 @@ export const Join = styled.button`
   height: 66px;
 
   background: linear-gradient(92.84deg, #1dd844 1.44%, #cbf62e 126.29%);
-  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 9px rgba(203, 246, 46.5);
   border-radius: 20px;
 
   margin-top: 67px;
@@ -52,10 +57,18 @@ export const Join = styled.button`
   cursor: pointer;
   :hover {
     background: linear-gradient(92.84deg, #1dd844 1.44%, #cbf62e 126.29%);
-    box-shadow: 0px 4px 15px rgba(203, 246, 46.50);
+    box-shadow: 0px 4px 15px rgba(203, 246, 46.5);
   }
   :active {
     background: linear-gradient(92.84deg, #1dd844 1.44%, #cbf62e 126.29%);
     box-shadow: 0px 4px 9px rgba(203, 246, 46.25);
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 277px;
+    height: 51px;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 50px;
   }
 `;

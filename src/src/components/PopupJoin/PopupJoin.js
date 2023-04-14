@@ -12,6 +12,10 @@ export const PopupArea = styled.div`
   transition: 0.5s;
   z-index: 1;
   backdrop-filter: blur(5px);
+
+  @media screen and (max-width: 800px) {
+    height: 735px;
+  }
 `;
 
 export const AuthForm = styled.div`
@@ -32,8 +36,12 @@ export const AuthForm = styled.div`
   flex-wrap: nowrap;
   align-items: center;
   overflow: hidden;
-`;
 
+  @media screen and (max-width: 800px) {
+    width: 320px;
+    height: 337px;
+  }
+`;
 export const Header = styled.h1`
   width: 455px;
   height: 47px;
@@ -46,6 +54,13 @@ export const Header = styled.h1`
   color: #ffffff;
   margin-top: 56px;
   z-index: 1;
+
+  @media screen and (max-width: 800px) {
+    width: 268px;
+    height: 30px;
+    font-size: 23px;
+    margin-top: 45px;
+  }
 `;
 
 export const Heading = styled.p`
@@ -59,13 +74,20 @@ export const Heading = styled.p`
   color: #ffffff;
   margin-top: 25px;
   z-index: 1;
+
+  @media screen and (max-width: 800px) {
+    width: 273px;
+    height: 66px;
+    font-size: 18px;
+    margin-top: 15px;
+  }
 `;
 
 export const FormInput = styled.input`
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 15px 268px 15px 20px;
+  padding: 5px 20px 5px 20px;
   gap: 10px;
 
   width: 471px;
@@ -82,6 +104,13 @@ export const FormInput = styled.input`
   margin-top: 35px;
   margin-bottom: 18px;
   z-index: 1;
+
+  @media screen and (max-width: 800px) {
+    width: 288px;
+    height: 49px;
+    margin-top: 25px;
+    margin-bottom: 17px;
+  }
 `;
 
 export const FormButton = styled.button`
@@ -89,7 +118,6 @@ export const FormButton = styled.button`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 15px 145px;
   gap: 10px;
   width: 471px;
   height: 52px;
@@ -100,7 +128,7 @@ export const FormButton = styled.button`
   display: inline-block;
   :hover {
     background: linear-gradient(92.84deg, #1dd844 1.44%, #cbf62e 126.29%);
-    box-shadow: 0px 4px 15px rgba(203, 246, 46.50);
+    box-shadow: 0px 4px 15px rgba(203, 246, 46.5);
   }
   :active {
     background: linear-gradient(92.84deg, #1dd844 1.44%, #cbf62e 126.29%);
@@ -116,12 +144,23 @@ export const FormButton = styled.button`
   color: #242424;
   cursor: pointer;
   z-index: 1;
+
+  @media screen and (max-width: 800px) {
+    width: 288px;
+    height: 49px;
+    font-size: 16px;
+  }
 `;
 
 export const CloseBtn = styled.img`
   position: absolute;
   left: 600px;
   top: 45px;
+
+  @media screen and (max-width: 800px) {
+    left: 280px;
+    top: 25px;
+  }
 `;
 
 export const BackgroundGreenLight = styled.div`
@@ -138,4 +177,11 @@ export const BackgroundGreenLight = styled.div`
   );
   filter: blur(86px);
   transform: rotate(11.97deg);
+
+  @media screen and (max-width: 800px) {
+    width: 287.9px;
+    height: 261.68px;
+    left: 182.27px;
+    top: 137px;
+  }
 `;
